@@ -1,0 +1,59 @@
+.main {
+  width: 90%;
+  text-align: justify;
+  padding: 15px;
+  background: url('img/red_transparent_background.png')
+}
+
+.name {
+	font-family: 'Euphoria Script', cursive; 
+	font-size: 60px; 
+	text-align: center; 
+	line-height: %;
+}
+
+
+.fakten {
+	padding-top: 1px; 
+	text-align: center; 
+	letter-spacing: 4px; 
+	font-family: calibri; 
+	font-size: 10px; 
+	line-height: 90%; 
+	text-transform: uppercase;
+}
+
+
+.postzahl {
+	text-align: right; 
+	letter-spacing: 4px; 
+	font-family: calibri; 
+	font-size: 10px;
+}
+
+
+
+.text {
+	text-align: justify; 
+	border-left: 30px solid #92a6b3;
+	padding: 15px;
+}
+
+
+.line {
+  overflow: hidden; 
+  text-align: left; 
+  line-height: 1.4em;
+}
+
+
+.line:before {
+  display: block; 
+  float: left; 
+  margin-top: .8em; /* half the line-height */
+  border-top: 1px solid #92a6b3; 
+  opacity: 0.7; 
+  width: 50px;
+}
+
+
